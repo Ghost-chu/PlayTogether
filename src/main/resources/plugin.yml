@@ -1,0 +1,9 @@
+name: PlayTogether
+version: '${project.version}'
+main: com.ghostchu.playtogether.PlayTogether
+api-version: 1.18
+depend: [ Parties ]
+commands:
+  forcesync:
+    description: Force sync in-party advancement
+    usage: /forcesync
